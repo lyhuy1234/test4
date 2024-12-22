@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    position: fixed; 
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    z-index: 1000;
+    background-color: rgb(47, 0, 0);
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    margin-top: -1.5%;
+    margin-left: -13%;
+}
+p{
+    margin-left: 130px;
+    margin-top: -1%;
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-top: 0.5%;
+}
+.tittle{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.content{
+    margin-right: -280px;
+    display: flex;
+    list-style: none;
+}
+.content a{
+    text-decoration: none;
+    margin: 37px;
+    color: black;
+    font-weight: bolder;
+}
+.content a:hover{
+    background-color: rgb(245, 212, 171);
+    border-radius: 30px;
+    padding: 30px;
+    transition: scale 0.5s ease-out, background-color 0.5s ease-out, color 0.5s ease-out 0.5s;
+}
+.pay{
+    margin-top: 8%;
+    text-align: center;
+}
+.b{
+    margin-top: 3%;
+}
+.co{
+    width: 100px;
+    margin-right: 20%;
+}
+.bank{
+    margin-top: -90px;
+}
+.bank label{
+    margin-right: 55px;
+}
+.bank input{
+    border-radius: 20px;
+    border: solid black 1px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+}
+.bank button{
+    margin-top: 0.5%;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgb(104, 0, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bank button:hover{
+    background-color: rgb(157, 0, 0);
+}
+.co2{
+    width: 130px;
+    margin-right: 20%;
+}
+.bank2{
+    margin-top: -114px;
+}
+.bank2 label{
+    margin-right: 0px;
+}
+.bank2 input{
+    border-radius: 20px;
+    border: solid black 1px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+}
+.bank2 button{
+    margin-top: 0.5%;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgb(104, 0, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bank2 button:hover{
+    background-color: rgb(157, 0, 0);
+}
+.co3{
+    width: 130px;
+    margin-right: 20%;
+}
+.bank3{
+    margin-top: -80px;
+}
+.bank3 label{
+    margin-right: 12px;
+}
+.bank3 input{
+    border-radius: 20px;
+    border: solid black 1px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+}
+.bank3 button{
+    margin-top: 0.5%;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgb(104, 0, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bank3 button:hover{
+    background-color: rgb(157, 0, 0);
+}
+.bank4{
+    margin-top: -80px;
+}
+.bank4 label{
+    margin-right: 30px;
+}
+.bank4 input{
+    border-radius: 20px;
+    border: solid black 1px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+}
+.bank4 button{
+    margin-top: 0.5%;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgb(104, 0, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bank4 button:hover{
+    background-color: rgb(157, 0, 0);
+}
+input{
+    margin-left: 4%;
+}

@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(47, 0, 0);
+    width: 100%;
+    height: 110px;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+.menu {
+    margin-left: 9%;
+}
+.re li{
+    margin-top: 2%;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li ul.drop li{
+    display: block;
+    margin-left: -12%;
+}
+ul li ul.drop{
+    width: 100%;
+    background: #400000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+ul li:hover ul.drop{
+    display: block;
+    background: rgb(47, 0, 0);
+    width: 300px;
+}
+.mo{
+    text-align: center;
+    margin-top: -2.3%;
+}
+.mo button{
+    margin: -0.15%;
+}
+.p{
+    color: goldenrod;
+    margin-left: 4%;
+    text-align: center;
+}
+.c1{
+    margin-top: 4%;
+}
+.c1 button{
+    border: #ffffff00;
+    background-color: #5e000000;
+}
+.c1 button p{
+   text-align: left;
+   margin-left: 5%;
+   color: white;
+   margin: 10px;
+}
+.c1 button:hover{
+    padding: 25px;
+    background-color: #5e000000;
+}
+.b{
+    margin-top: -80px;
+    margin-left: 175px;
+    list-style: none;
+    background-color: rgb(155, 117, 22);
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+}
+.b a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.b:hover{
+    background-color: rgb(255, 198, 55);
+}
+.b a:hover{
+    color: darkblue;
+}
+.C{
+    margin-top: -50px;
+    margin-left: 170px;
+    list-style: none;
+    background-color: rgba(155, 117, 22, 0);
+    width: 90px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+}
+.C a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.C:hover{
+    background-color: white;
+    color: darkblue;
+}
+.C a:hover{
+    color: black;
+}
+.c2{
+    margin-top: 7%;
+}
+.c2 button{
+    border: #ffffff00;
+    background-color: #5e000000;
+}
+.c2 button p{
+   text-align: left;
+   margin-left: 5%;
+   color: white;
+   margin: 10px;
+}
+.c2 button:hover{
+    padding: 25px;
+    background-color: #5e000000;
+}
+.f{
+    margin-top: 40px;
+    background-color: rgb(47, 0, 0);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.fo1{
+    margin-left: 10%;
+    color: white;
+}
+.fo1 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo1 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo2{
+    margin-left: 30%;
+    margin-top: -11.5%;
+    color: white;
+}
+.fo2 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo2 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo3{
+    margin-left: 80%;
+    margin-top: -11.5%;
+    color: white;
+}
+.caption{
+    color: white;
+    margin-top: -12%;
+    margin-left: 7%;
+}
+.caption h2{
+    font-size: 37px;
+    font-weight: bold;
+}
+.caption p{
+    font-weight: bold;
+}
+.btn-more{
+    width: 150px;
+    height: 50px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 7px;
+    border: white;
+}
+.btn-more a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-more:hover{
+    text-decoration: none;
+    border: 2px solid white;
+}
+.btn-buy{
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    padding: 0px;
+    border-radius: 7px;
+    border: white;
+}
+.btn-buy a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btn-buy:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.342);
+}
+input{
+    color: white;
+}
+.box-input{
+    margin-left: 10%;
+}
+.box-input ::placeholder{
+    color: white;
+}
+.box-input input {
+    margin-left: 1%;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border: 2px solid white;
+}
+.box-input button {
+    margin-left: 1%;
+    padding: 10px;
+    width: 10%;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    border: white;
+}
+.box-input button:hover{
+    padding: 10px;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.555);
+    border: white;
+}

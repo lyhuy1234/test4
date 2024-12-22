@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(47, 0, 0);
+    width: 100%;
+    height: 110px;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+.menu {
+    margin-left: 9%;
+}
+.re li{
+    margin-top: 2%;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li ul.drop li{
+    display: block;
+    margin-left: -12%;
+}
+ul li ul.drop{
+    width: 100%;
+    background: #400000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+ul li:hover ul.drop{
+    display: block;
+    background: rgb(47, 0, 0);
+    width: 300px;
+}
+
+
+
+
+.menu1 {
+    margin-top: -4%;
+    margin-left: 92%;
+}
+.re1 li{
+    margin-top: 2%;
+}
+ul{
+    list-style: none;
+}
+.drop1{
+    margin-left: -700%;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li ul.drop1 li{
+    display: block;
+    margin-left: -12%;
+}
+ul li ul.drop1{
+    width: 100%;
+    background: #400000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+ul li:hover ul.drop1{
+    display: block;
+    background: rgb(47, 0, 0);
+    width: 300px;
+}
+
+
+
+.mo{
+    text-align: center;
+    margin-top: -2.3%;
+}
+.mo button{
+    margin: -0.15%;
+}
+.p{
+    color: goldenrod;
+    margin-left: 4%;
+    text-align: center;
+}
+.c1{
+    margin-top: 4%;
+}
+.c1 button{
+    border: #ffffff00;
+    background-color: #5e000000;
+}
+.c1 button p{
+   text-align: left;
+   margin-left: 5%;
+   color: white;
+   margin: 10px;
+}
+.c1 button:hover{
+    padding: 25px;
+    background-color: #5e000000;
+}
+.b{
+    margin-top: 900px;
+    margin-left: 175px;
+    list-style: none;
+    background-color: rgb(155, 117, 22);
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+}
+.b a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.b:hover{
+    background-color: rgb(255, 198, 55);
+}
+.b a:hover{
+    color: darkblue;
+}
+.C{
+    margin-top: 20px;
+    margin-left: 170px;
+    list-style: none;
+    background-color: rgba(155, 117, 22, 0);
+    width: 90px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+}
+.C a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: auto;
+}
+.C:hover{
+    background-color: white;
+    color: darkblue;
+}
+.C a:hover{
+    color: black;
+}
+.c2{
+    margin-top: 7%;
+}
+.c2 button{
+    border: #ffffff00;
+    background-color: #5e000000;
+}
+.c2 button p{
+   text-align: left;
+   margin-left: 5%;
+   color: white;
+   margin: 10px;
+}
+.c2 button:hover{
+    padding: 25px;
+    background-color: #5e000000;
+}
+.f{
+    margin-top: 40px;
+    background-color: rgb(47, 0, 0);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.fo1{
+    margin-left: 10%;
+    color: white;
+}
+.fo1 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo1 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo2{
+    margin-left: 30%;
+    margin-top: -11.5%;
+    color: white;
+}
+.fo2 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo2 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo3{
+    margin-left: 80%;
+    margin-top: -11.5%;
+    color: white;
+}
+/* Mobile-first: Small screens */
+
+@media screen and (max-width: 768px) {
+    nav{
+        margin-top: -5%;
+    }
+    .logo{
+        margin-top: 4%;
+    }
+    .btn-menu{
+        margin-top: 120%;
+    }
+    .menu1{
+        margin-left: 80%;
+    }
+
+    .menu ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li a {
+        padding: 15px;
+    }
+    .menu2 ul li {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .menu2 li a {
+        padding: 15px;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+    .b{
+        margin-left: 60%;
+        margin-top: -100px;
+        width: 40%;
+        text-align: center;
+    }
+    .C {
+        margin-left: 60%;
+        margin-top: -60px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .b a, .C a {
+        padding: 5px;
+        display: block;
+    }
+
+    .c1, .c2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .fo1 {
+        margin-left: 40px;
+        margin-top: 8px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .fo2 {
+        margin-left: 190px;
+        margin-top: -125.5px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .fo3 {
+        margin-left: 39px;
+        margin-top: 45px;
+        text-align: left;
+        font-size: 10px;
+    }
+}
+/* Tablets: Medium screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav{
+        margin-top: -5%;
+    }
+    .logo{
+        margin-top: 3.5%;
+    }
+    .btn-menu{
+        margin-top: 180%;
+    }
+    .menu1{
+        margin-left: 90%;
+    }
+
+    .menu ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li a {
+        padding: 15px;
+    }
+    .menu2 ul li {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .menu2 li a {
+        padding: 15px;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+    .b{
+        margin-left: 60%;
+        margin-top: -100px;
+        width: 40%;
+        text-align: center;
+    }
+    .C {
+        margin-left: 60%;
+        margin-top: -60px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .b a, .C a {
+        padding: 5px;
+        display: block;
+    }
+
+    .c1, .c2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .fo1 {
+        margin-left: 40px;
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo2 {
+        margin-left: 290px;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo3 {
+        margin-left: 70%;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
+/* Large Screens: Desktops */
+@media screen and (min-width: 1025px) {
+    .logo{
+        margin-top: 14px;
+    }
+    menu{
+        margin-top: -200px;
+    }
+    .menu1{
+        display: none;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+    .b{
+        margin-left: 60%;
+        margin-top: -100px;
+        width: 40%;
+        text-align: center;
+    }
+    .C {
+        margin-left: 60%;
+        margin-top: -60px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .b a, .C a {
+        padding: 5px;
+        display: block;
+    }
+
+    .c1, .c2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .f{
+        width: 100%;
+    }
+    .fo1 {
+        margin-left: 10%;
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo2 {
+        margin-left: 450px;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .fo3 {
+        margin-left: 80%;
+        margin-top: -160px;
+        text-align: left;
+        font-size: 15px;
+    }
+}

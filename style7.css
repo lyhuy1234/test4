@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(47, 0, 0);
+    width: 100%;
+    height: 110px;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+.menu {
+    margin-left: 9%;
+}
+.re li{
+    margin-top: 2%;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li ul.drop li{
+    display: block;
+    margin-left: -12%;
+}
+ul li ul.drop{
+    width: 100%;
+    background: #400000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+ul li:hover ul.drop{
+    display: block;
+    background: rgb(47, 0, 0);
+    width: 300px;
+}
+
+
+
+.menu1 {
+    margin-top: -4%;
+    margin-left: 92%;
+}
+.re1 li{
+    margin-top: 2%;
+}
+ul{
+    list-style: none;
+}
+.drop1{
+    margin-left: -700%;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li ul.drop1 li{
+    display: block;
+    margin-left: -12%;
+}
+ul li ul.drop1{
+    width: 100%;
+    background: #400000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+ul li:hover ul.drop1{
+    display: block;
+    background: rgb(47, 0, 0);
+    width: 300px;
+}
+
+
+
+.st1{
+    margin-top: 4%;
+    margin-left: 7%;
+    color: white;
+}
+.st1 button{
+    margin-top: 15%;
+    border-radius: 20px;
+    width: 15%;
+    height: auto;
+    padding: 1%;
+    text-decoration: none;
+    background-color: goldenrod;
+    border: #ffffff;
+}
+.st1 button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.st1-pic{
+    margin-top: -28.5%;
+    margin-left: 22%;
+}
+.v1{
+    margin-top: 30%;
+}
+iframe{
+    margin-top: -47%;
+    margin-left: 55%;
+}
+
+
+.f{
+    margin-top: 5%;
+    background-color: rgb(47, 0, 0);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.fo1{
+    margin-left: 10%;
+    color: white;
+}
+.fo1 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo1 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo2{
+    margin-left: 30%;
+    margin-top: -11.5%;
+    color: white;
+}
+.fo2 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo2 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo3{
+    margin-left: 80%;
+    margin-top: -11.5%;
+    color: white;
+}
+/* Mobile-first: Small screens */
+
+@media screen and (max-width: 768px) {
+    nav{
+        width: 100%;
+        height: 90px;
+    }
+    .logo{
+        width: 130px;
+        padding: 15px;
+    }
+    .btn-menu{
+        margin-top: 29px;
+    }
+    .menu1{
+        margin-left: 80%;
+    }
+
+    .menu ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li a {
+        padding: 15px;
+    }
+    .menu2 ul li {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .menu2 li a {
+        padding: 15px;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+
+    .st1 .img{
+        width: 180px;
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+    .st1-pic p{
+        align-items: center;
+    }
+    .st1-pic h3{
+        margin-top: -260px;
+        margin-left: 90px;
+    }
+    .st1 p{
+        margin-left: 90px;
+        align-items: center;
+    }
+    .st1 button{
+        margin-top: -50px;
+        margin-left: 110px;
+        width: 140px;
+    }
+    iframe{
+        margin-top: 70px;
+        margin-left: -20px;
+        width: 355px;
+        height: 200px;
+        text-align: center;
+    }
+    .fo1 {
+        margin-left: 60px;
+        margin-top: -10px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .fo2 {
+        margin-left: 240px;
+        margin-top: -125.5px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .fo3 {
+        margin-left: 61px;
+        margin-top: 45px;
+        text-align: left;
+        font-size: 10px;
+    }
+}
+/* Tablets: Medium screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav{
+        width: 100%;
+        height: 90px;
+    }
+    .logo{
+        width: 140px;
+        padding: 18px;
+    }
+    .btn-menu{
+        margin-top: 39px;
+    }
+    .menu1{
+        margin-left: 90%;
+    }
+
+    .menu ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li a {
+        padding: 15px;
+    }
+    .menu2 ul li {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .menu2 li a {
+        padding: 15px;
+    }
+    .c1 button, .c2 button{
+        margin-top: 100px;
+    }
+
+
+    .st1 .img{
+        width: 180px;
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+    .st1-pic p{
+        align-items: center;
+    }
+    .st1-pic h3{
+        margin-top: -260px;
+        margin-left: 90px;
+    }
+    .st1 p{
+        margin-left: 90px;
+        align-items: center;
+    }
+    .st1 button{
+        margin-top: -5px;
+        margin-left: 90px;
+        width: 140px;
+    }
+    iframe{
+        margin-top: 70px;
+        margin-left: -20px;
+        width: 705px;
+        height: 600px;
+        text-align: center;
+    }
+    .fo1 {
+        margin-left: 60px;
+        margin-top: -10px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .fo2 {
+        margin-left: 240px;
+        margin-top: -125.5px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .fo3 {
+        margin-left: 70%;
+        margin-top: -125px;
+        text-align: left;
+        font-size: 10px;
+    } 
+}
+
+/* Large Screens: Desktops */
+@media screen and (min-width: 1440px){
+    .menu1{
+        display: none;
+    }
+}
